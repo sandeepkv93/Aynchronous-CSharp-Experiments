@@ -13,4 +13,6 @@
 // You have some code that needs to stop running after a timeout.
 
 CancelAfterTimeout cancelAfterTimeout = new CancelAfterTimeout(cancelAfterSeconds: 5);
-await cancelAfterTimeout.IssueTimeoutAsync();
+//await cancelAfterTimeout.IssueTimeoutAsync();
+string? concatenatedString = await cancelAfterTimeout.ConcatenateStringsWithTimeout(new string[] { "The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog" });
+Console.WriteLine(concatenatedString);
