@@ -24,7 +24,7 @@ namespace AsyncBasics
         internal async Task<int> AddTwoNumbersWithDelay(int a, int b)
         {
             int sum = a + b;
-            return await DelayResult(sum, TimeSpan.FromSeconds(delayInSeconds));
+            return await DelayResult(sum, TimeSpan.FromSeconds(this.DelayInSeconds));
         }
     }
 }
