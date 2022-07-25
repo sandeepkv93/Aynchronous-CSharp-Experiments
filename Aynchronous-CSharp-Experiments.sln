@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async-Basics", "Async-Basics\Async-Basics.csproj", "{3F5A35D7-95A4-4642-A338-FCCBB60457BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBasics", "Async-Basics\AsyncBasics.csproj", "{3F5A35D7-95A4-4642-A338-FCCBB60457BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
